@@ -1,0 +1,3 @@
+/home/drjones1020/sdl2-projects/spud/build/CMakeFiles/spud.dir
+/home/drjones1020/sdl2-projects/spud/build/CMakeFiles/edit_cache.dir
+/home/drjones1020/sdl2-projects/spud/build/CMakeFiles/rebuild_cache.dir
