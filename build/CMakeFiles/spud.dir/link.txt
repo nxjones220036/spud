@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/spud.dir/src/main.cpp.o CMakeFiles/spud.dir/src/game.cpp.o CMakeFiles/spud.dir/src/globals.cpp.o -o spud  /usr/lib/x86_64-linux-gnu/libSDL2.so 
+/usr/bin/c++ CMakeFiles/spud.dir/src/main.cpp.o CMakeFiles/spud.dir/src/game.cpp.o CMakeFiles/spud.dir/src/globals.cpp.o CMakeFiles/spud.dir/src/entity.cpp.o CMakeFiles/spud.dir/src/player.cpp.o CMakeFiles/spud.dir/src/enemy.cpp.o -o spud  /usr/lib/x86_64-linux-gnu/libSDL2.so 

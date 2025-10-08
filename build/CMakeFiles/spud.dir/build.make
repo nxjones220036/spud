@@ -111,11 +111,56 @@ CMakeFiles/spud.dir/src/globals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/globals.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/globals.cpp -o CMakeFiles/spud.dir/src/globals.cpp.s
 
+CMakeFiles/spud.dir/src/entity.cpp.o: CMakeFiles/spud.dir/flags.make
+CMakeFiles/spud.dir/src/entity.cpp.o: /home/drjones1020/sdl2-projects/spud/src/entity.cpp
+CMakeFiles/spud.dir/src/entity.cpp.o: CMakeFiles/spud.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spud.dir/src/entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spud.dir/src/entity.cpp.o -MF CMakeFiles/spud.dir/src/entity.cpp.o.d -o CMakeFiles/spud.dir/src/entity.cpp.o -c /home/drjones1020/sdl2-projects/spud/src/entity.cpp
+
+CMakeFiles/spud.dir/src/entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spud.dir/src/entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drjones1020/sdl2-projects/spud/src/entity.cpp > CMakeFiles/spud.dir/src/entity.cpp.i
+
+CMakeFiles/spud.dir/src/entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/entity.cpp -o CMakeFiles/spud.dir/src/entity.cpp.s
+
+CMakeFiles/spud.dir/src/player.cpp.o: CMakeFiles/spud.dir/flags.make
+CMakeFiles/spud.dir/src/player.cpp.o: /home/drjones1020/sdl2-projects/spud/src/player.cpp
+CMakeFiles/spud.dir/src/player.cpp.o: CMakeFiles/spud.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spud.dir/src/player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spud.dir/src/player.cpp.o -MF CMakeFiles/spud.dir/src/player.cpp.o.d -o CMakeFiles/spud.dir/src/player.cpp.o -c /home/drjones1020/sdl2-projects/spud/src/player.cpp
+
+CMakeFiles/spud.dir/src/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spud.dir/src/player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drjones1020/sdl2-projects/spud/src/player.cpp > CMakeFiles/spud.dir/src/player.cpp.i
+
+CMakeFiles/spud.dir/src/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/player.cpp -o CMakeFiles/spud.dir/src/player.cpp.s
+
+CMakeFiles/spud.dir/src/enemy.cpp.o: CMakeFiles/spud.dir/flags.make
+CMakeFiles/spud.dir/src/enemy.cpp.o: /home/drjones1020/sdl2-projects/spud/src/enemy.cpp
+CMakeFiles/spud.dir/src/enemy.cpp.o: CMakeFiles/spud.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spud.dir/src/enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spud.dir/src/enemy.cpp.o -MF CMakeFiles/spud.dir/src/enemy.cpp.o.d -o CMakeFiles/spud.dir/src/enemy.cpp.o -c /home/drjones1020/sdl2-projects/spud/src/enemy.cpp
+
+CMakeFiles/spud.dir/src/enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spud.dir/src/enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drjones1020/sdl2-projects/spud/src/enemy.cpp > CMakeFiles/spud.dir/src/enemy.cpp.i
+
+CMakeFiles/spud.dir/src/enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/enemy.cpp -o CMakeFiles/spud.dir/src/enemy.cpp.s
+
 # Object files for target spud
 spud_OBJECTS = \
 "CMakeFiles/spud.dir/src/main.cpp.o" \
 "CMakeFiles/spud.dir/src/game.cpp.o" \
-"CMakeFiles/spud.dir/src/globals.cpp.o"
+"CMakeFiles/spud.dir/src/globals.cpp.o" \
+"CMakeFiles/spud.dir/src/entity.cpp.o" \
+"CMakeFiles/spud.dir/src/player.cpp.o" \
+"CMakeFiles/spud.dir/src/enemy.cpp.o"
 
 # External object files for target spud
 spud_EXTERNAL_OBJECTS =
@@ -123,10 +168,13 @@ spud_EXTERNAL_OBJECTS =
 spud: CMakeFiles/spud.dir/src/main.cpp.o
 spud: CMakeFiles/spud.dir/src/game.cpp.o
 spud: CMakeFiles/spud.dir/src/globals.cpp.o
+spud: CMakeFiles/spud.dir/src/entity.cpp.o
+spud: CMakeFiles/spud.dir/src/player.cpp.o
+spud: CMakeFiles/spud.dir/src/enemy.cpp.o
 spud: CMakeFiles/spud.dir/build.make
 spud: /usr/lib/x86_64-linux-gnu/libSDL2.so
 spud: CMakeFiles/spud.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable spud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable spud"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spud.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
