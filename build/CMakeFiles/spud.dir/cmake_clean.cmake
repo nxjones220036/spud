@@ -11,6 +11,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/spud.dir/src/main.cpp.o.d"
   "CMakeFiles/spud.dir/src/player.cpp.o"
   "CMakeFiles/spud.dir/src/player.cpp.o.d"
+  "CMakeFiles/spud.dir/src/tile.cpp.o"
+  "CMakeFiles/spud.dir/src/tile.cpp.o.d"
+  "CMakeFiles/spud.dir/src/tilemap.cpp.o"
+  "CMakeFiles/spud.dir/src/tilemap.cpp.o.d"
   "spud"
   "spud.pdb"
 )

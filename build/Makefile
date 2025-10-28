@@ -273,6 +273,54 @@ src/player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
+src/tile.o: src/tile.cpp.o
+.PHONY : src/tile.o
+
+# target to build an object file
+src/tile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/tile.cpp.o
+.PHONY : src/tile.cpp.o
+
+src/tile.i: src/tile.cpp.i
+.PHONY : src/tile.i
+
+# target to preprocess a source file
+src/tile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/tile.cpp.i
+.PHONY : src/tile.cpp.i
+
+src/tile.s: src/tile.cpp.s
+.PHONY : src/tile.s
+
+# target to generate assembly for a file
+src/tile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/tile.cpp.s
+.PHONY : src/tile.cpp.s
+
+src/tilemap.o: src/tilemap.cpp.o
+.PHONY : src/tilemap.o
+
+# target to build an object file
+src/tilemap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/tilemap.cpp.o
+.PHONY : src/tilemap.cpp.o
+
+src/tilemap.i: src/tilemap.cpp.i
+.PHONY : src/tilemap.i
+
+# target to preprocess a source file
+src/tilemap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/tilemap.cpp.i
+.PHONY : src/tilemap.cpp.i
+
+src/tilemap.s: src/tilemap.cpp.s
+.PHONY : src/tilemap.s
+
+# target to generate assembly for a file
+src/tilemap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/tilemap.cpp.s
+.PHONY : src/tilemap.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +348,12 @@ help:
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"
+	@echo "... src/tile.o"
+	@echo "... src/tile.i"
+	@echo "... src/tile.s"
+	@echo "... src/tilemap.o"
+	@echo "... src/tilemap.i"
+	@echo "... src/tilemap.s"
 .PHONY : help
 
 

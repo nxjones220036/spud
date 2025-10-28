@@ -1,6 +1,7 @@
 #pragma once
 #include <SDL2/SDL.h>
 #include "player.h"
+#include "tilemap.h"
 
 class Game {
 public:
@@ -13,4 +14,5 @@ private:
     SDL_Window* window;
     bool running;
     Player* player;
+    TileMap tilemap;
 };
