@@ -181,6 +181,48 @@ CMakeFiles/spud.dir/src/tilemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/tilemap.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/tilemap.cpp -o CMakeFiles/spud.dir/src/tilemap.cpp.s
 
+CMakeFiles/spud.dir/src/scene.cpp.o: CMakeFiles/spud.dir/flags.make
+CMakeFiles/spud.dir/src/scene.cpp.o: /home/drjones1020/sdl2-projects/spud/src/scene.cpp
+CMakeFiles/spud.dir/src/scene.cpp.o: CMakeFiles/spud.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/spud.dir/src/scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spud.dir/src/scene.cpp.o -MF CMakeFiles/spud.dir/src/scene.cpp.o.d -o CMakeFiles/spud.dir/src/scene.cpp.o -c /home/drjones1020/sdl2-projects/spud/src/scene.cpp
+
+CMakeFiles/spud.dir/src/scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spud.dir/src/scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drjones1020/sdl2-projects/spud/src/scene.cpp > CMakeFiles/spud.dir/src/scene.cpp.i
+
+CMakeFiles/spud.dir/src/scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/scene.cpp -o CMakeFiles/spud.dir/src/scene.cpp.s
+
+CMakeFiles/spud.dir/src/scene_manager.cpp.o: CMakeFiles/spud.dir/flags.make
+CMakeFiles/spud.dir/src/scene_manager.cpp.o: /home/drjones1020/sdl2-projects/spud/src/scene_manager.cpp
+CMakeFiles/spud.dir/src/scene_manager.cpp.o: CMakeFiles/spud.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/spud.dir/src/scene_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spud.dir/src/scene_manager.cpp.o -MF CMakeFiles/spud.dir/src/scene_manager.cpp.o.d -o CMakeFiles/spud.dir/src/scene_manager.cpp.o -c /home/drjones1020/sdl2-projects/spud/src/scene_manager.cpp
+
+CMakeFiles/spud.dir/src/scene_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spud.dir/src/scene_manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drjones1020/sdl2-projects/spud/src/scene_manager.cpp > CMakeFiles/spud.dir/src/scene_manager.cpp.i
+
+CMakeFiles/spud.dir/src/scene_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/scene_manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/scene_manager.cpp -o CMakeFiles/spud.dir/src/scene_manager.cpp.s
+
+CMakeFiles/spud.dir/src/main_scene.cpp.o: CMakeFiles/spud.dir/flags.make
+CMakeFiles/spud.dir/src/main_scene.cpp.o: /home/drjones1020/sdl2-projects/spud/src/main_scene.cpp
+CMakeFiles/spud.dir/src/main_scene.cpp.o: CMakeFiles/spud.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/spud.dir/src/main_scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spud.dir/src/main_scene.cpp.o -MF CMakeFiles/spud.dir/src/main_scene.cpp.o.d -o CMakeFiles/spud.dir/src/main_scene.cpp.o -c /home/drjones1020/sdl2-projects/spud/src/main_scene.cpp
+
+CMakeFiles/spud.dir/src/main_scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spud.dir/src/main_scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drjones1020/sdl2-projects/spud/src/main_scene.cpp > CMakeFiles/spud.dir/src/main_scene.cpp.i
+
+CMakeFiles/spud.dir/src/main_scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spud.dir/src/main_scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drjones1020/sdl2-projects/spud/src/main_scene.cpp -o CMakeFiles/spud.dir/src/main_scene.cpp.s
+
 # Object files for target spud
 spud_OBJECTS = \
 "CMakeFiles/spud.dir/src/main.cpp.o" \
@@ -190,7 +232,10 @@ spud_OBJECTS = \
 "CMakeFiles/spud.dir/src/player.cpp.o" \
 "CMakeFiles/spud.dir/src/enemy.cpp.o" \
 "CMakeFiles/spud.dir/src/tile.cpp.o" \
-"CMakeFiles/spud.dir/src/tilemap.cpp.o"
+"CMakeFiles/spud.dir/src/tilemap.cpp.o" \
+"CMakeFiles/spud.dir/src/scene.cpp.o" \
+"CMakeFiles/spud.dir/src/scene_manager.cpp.o" \
+"CMakeFiles/spud.dir/src/main_scene.cpp.o"
 
 # External object files for target spud
 spud_EXTERNAL_OBJECTS =
@@ -203,10 +248,13 @@ spud: CMakeFiles/spud.dir/src/player.cpp.o
 spud: CMakeFiles/spud.dir/src/enemy.cpp.o
 spud: CMakeFiles/spud.dir/src/tile.cpp.o
 spud: CMakeFiles/spud.dir/src/tilemap.cpp.o
+spud: CMakeFiles/spud.dir/src/scene.cpp.o
+spud: CMakeFiles/spud.dir/src/scene_manager.cpp.o
+spud: CMakeFiles/spud.dir/src/main_scene.cpp.o
 spud: CMakeFiles/spud.dir/build.make
 spud: /usr/lib/x86_64-linux-gnu/libSDL2.so
 spud: CMakeFiles/spud.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable spud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable spud"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spud.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

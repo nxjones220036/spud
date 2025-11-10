@@ -1,9 +1,9 @@
-CMakeFiles/spud.dir/src/game.cpp.o: \
- /home/drjones1020/sdl2-projects/spud/src/game.cpp \
+CMakeFiles/spud.dir/src/scene_manager.cpp.o: \
+ /home/drjones1020/sdl2-projects/spud/src/scene_manager.cpp \
  /usr/include/stdc-predef.h \
- /home/drjones1020/sdl2-projects/spud/src/game.h /usr/include/SDL2/SDL.h \
- /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
- /usr/include/SDL2/SDL_config.h \
+ /home/drjones1020/sdl2-projects/spud/src/scene_manager.h \
+ /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
+ /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
  /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
  /usr/include/SDL2/close_code.h /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -216,9 +216,8 @@ CMakeFiles/spud.dir/src/game.cpp.o: \
  /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
- /usr/include/SDL2/SDL_misc.h \
- /home/drjones1020/sdl2-projects/spud/src/scene_manager.h \
- /usr/include/c++/12/vector /usr/include/c++/12/bits/allocator.h \
+ /usr/include/SDL2/SDL_misc.h /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
  /usr/include/c++/12/bits/new_allocator.h /usr/include/c++/12/new \
  /usr/include/c++/12/bits/exception.h \
@@ -273,45 +272,4 @@ CMakeFiles/spud.dir/src/game.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/drjones1020/sdl2-projects/spud/src/globals.h \
- /home/drjones1020/sdl2-projects/spud/src/main_scene.h \
- /home/drjones1020/sdl2-projects/spud/src/scene.h \
- /home/drjones1020/sdl2-projects/spud/src/tilemap.h \
- /usr/include/c++/12/string /usr/include/c++/12/bits/char_traits.h \
- /usr/include/c++/12/cstdint /usr/include/c++/12/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
- /usr/include/c++/12/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/12/cctype \
- /usr/include/c++/12/bits/ostream_insert.h \
- /usr/include/c++/12/bits/cxxabi_forced.h \
- /usr/include/c++/12/bits/basic_string.h /usr/include/c++/12/string_view \
- /usr/include/c++/12/bits/string_view.tcc \
- /usr/include/c++/12/ext/string_conversions.h /usr/include/c++/12/cstdio \
- /usr/include/c++/12/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/12/bits/charconv.h \
- /usr/include/c++/12/bits/basic_string.tcc \
- /home/drjones1020/sdl2-projects/spud/src/tile.h \
- /home/drjones1020/sdl2-projects/spud/src/player.h \
- /home/drjones1020/sdl2-projects/spud/src/entity.h \
- /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
- /usr/include/c++/12/ios /usr/include/c++/12/bits/ios_base.h \
- /usr/include/c++/12/bits/locale_classes.h \
- /usr/include/c++/12/bits/locale_classes.tcc \
- /usr/include/c++/12/system_error \
- /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
- /usr/include/c++/12/stdexcept /usr/include/c++/12/streambuf \
- /usr/include/c++/12/bits/streambuf.tcc \
- /usr/include/c++/12/bits/basic_ios.h \
- /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h \
- /usr/include/c++/12/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h \
- /usr/include/c++/12/bits/locale_facets.tcc \
- /usr/include/c++/12/bits/basic_ios.tcc \
- /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc
+ /home/drjones1020/sdl2-projects/spud/src/scene.h

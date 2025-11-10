@@ -129,6 +129,19 @@ spud/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/build
 .PHONY : spud/fast
 
+#=============================================================================
+# Target rules for targets named copy_assets
+
+# Build rule for target.
+copy_assets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_assets
+.PHONY : copy_assets
+
+# fast build rule for target.
+copy_assets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/build
+.PHONY : copy_assets/fast
+
 src/enemy.o: src/enemy.cpp.o
 .PHONY : src/enemy.o
 
@@ -249,6 +262,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/main_scene.o: src/main_scene.cpp.o
+.PHONY : src/main_scene.o
+
+# target to build an object file
+src/main_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/main_scene.cpp.o
+.PHONY : src/main_scene.cpp.o
+
+src/main_scene.i: src/main_scene.cpp.i
+.PHONY : src/main_scene.i
+
+# target to preprocess a source file
+src/main_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/main_scene.cpp.i
+.PHONY : src/main_scene.cpp.i
+
+src/main_scene.s: src/main_scene.cpp.s
+.PHONY : src/main_scene.s
+
+# target to generate assembly for a file
+src/main_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/main_scene.cpp.s
+.PHONY : src/main_scene.cpp.s
+
 src/player.o: src/player.cpp.o
 .PHONY : src/player.o
 
@@ -272,6 +309,54 @@ src/player.s: src/player.cpp.s
 src/player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
+
+src/scene.o: src/scene.cpp.o
+.PHONY : src/scene.o
+
+# target to build an object file
+src/scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/scene.cpp.o
+.PHONY : src/scene.cpp.o
+
+src/scene.i: src/scene.cpp.i
+.PHONY : src/scene.i
+
+# target to preprocess a source file
+src/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/scene.cpp.i
+.PHONY : src/scene.cpp.i
+
+src/scene.s: src/scene.cpp.s
+.PHONY : src/scene.s
+
+# target to generate assembly for a file
+src/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/scene.cpp.s
+.PHONY : src/scene.cpp.s
+
+src/scene_manager.o: src/scene_manager.cpp.o
+.PHONY : src/scene_manager.o
+
+# target to build an object file
+src/scene_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/scene_manager.cpp.o
+.PHONY : src/scene_manager.cpp.o
+
+src/scene_manager.i: src/scene_manager.cpp.i
+.PHONY : src/scene_manager.i
+
+# target to preprocess a source file
+src/scene_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/scene_manager.cpp.i
+.PHONY : src/scene_manager.cpp.i
+
+src/scene_manager.s: src/scene_manager.cpp.s
+.PHONY : src/scene_manager.s
+
+# target to generate assembly for a file
+src/scene_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/scene_manager.cpp.s
+.PHONY : src/scene_manager.cpp.s
 
 src/tile.o: src/tile.cpp.o
 .PHONY : src/tile.o
@@ -329,6 +414,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... copy_assets"
 	@echo "... spud"
 	@echo "... src/enemy.o"
 	@echo "... src/enemy.i"
@@ -345,9 +431,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/main_scene.o"
+	@echo "... src/main_scene.i"
+	@echo "... src/main_scene.s"
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"
+	@echo "... src/scene.o"
+	@echo "... src/scene.i"
+	@echo "... src/scene.s"
+	@echo "... src/scene_manager.o"
+	@echo "... src/scene_manager.i"
+	@echo "... src/scene_manager.s"
 	@echo "... src/tile.o"
 	@echo "... src/tile.i"
 	@echo "... src/tile.s"

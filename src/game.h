@@ -1,7 +1,9 @@
 #pragma once
 #include <SDL2/SDL.h>
-#include "player.h"
-#include "tilemap.h"
+#include "scene_manager.h"
+
+// forward
+class Scene;
 
 class Game {
 public:
@@ -13,6 +15,6 @@ public:
 private:
     SDL_Window* window;
     bool running;
-    Player* player;
-    TileMap tilemap;
+    // Scene manager handles scenes (including player/tilemap now)
+    SceneManager sceneManager;
 };

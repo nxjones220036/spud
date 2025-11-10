@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/drjones1020/sdl2-projects/spud/build
 
 # The main recursive "all" target.
 all: CMakeFiles/spud.dir/all
+all: CMakeFiles/copy_assets.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,21 +73,22 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/spud.dir/clean
+clean: CMakeFiles/copy_assets.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/spud.dir
 
 # All Build rule for target.
-CMakeFiles/spud.dir/all:
+CMakeFiles/spud.dir/all: CMakeFiles/copy_assets.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target spud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Built target spud"
 .PHONY : CMakeFiles/spud.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spud.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/spud.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 0
 .PHONY : CMakeFiles/spud.dir/rule
@@ -99,6 +101,32 @@ spud: CMakeFiles/spud.dir/rule
 CMakeFiles/spud.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/clean
 .PHONY : CMakeFiles/spud.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/copy_assets.dir
+
+# All Build rule for target.
+CMakeFiles/copy_assets.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=1 "Built target copy_assets"
+.PHONY : CMakeFiles/copy_assets.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/copy_assets.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/copy_assets.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 0
+.PHONY : CMakeFiles/copy_assets.dir/rule
+
+# Convenience name for target.
+copy_assets: CMakeFiles/copy_assets.dir/rule
+.PHONY : copy_assets
+
+# clean rule for target.
+CMakeFiles/copy_assets.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/clean
+.PHONY : CMakeFiles/copy_assets.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
