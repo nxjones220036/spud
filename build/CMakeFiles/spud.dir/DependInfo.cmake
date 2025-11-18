@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/drjones1020/sdl2-projects/spud/src/battle_scene.cpp" "CMakeFiles/spud.dir/src/battle_scene.cpp.o" "gcc" "CMakeFiles/spud.dir/src/battle_scene.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/enemy.cpp" "CMakeFiles/spud.dir/src/enemy.cpp.o" "gcc" "CMakeFiles/spud.dir/src/enemy.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/entity.cpp" "CMakeFiles/spud.dir/src/entity.cpp.o" "gcc" "CMakeFiles/spud.dir/src/entity.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/game.cpp" "CMakeFiles/spud.dir/src/game.cpp.o" "gcc" "CMakeFiles/spud.dir/src/game.cpp.o.d"

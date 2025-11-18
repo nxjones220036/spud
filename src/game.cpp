@@ -1,6 +1,8 @@
 #include "game.h"
 #include "globals.h"
+#include <SDL2/SDL_ttf.h>
 #include "main_scene.h"
+#include "battle_scene.h"
 #include <iostream>
 
 Game::Game() : window(nullptr), running(false) {}
@@ -13,6 +15,13 @@ bool Game::init(const char* title, int width, int height) {
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
         std::cerr << "SDL_Init Error: " << SDL_GetError() << std::endl;
         return false;
+    }
+    // initialize SDL_ttf for text rendering
+    if (TTF_WasInit() == 0) {
+        if (TTF_Init() != 0) {
+            std::cerr << "TTF_Init failed: " << TTF_GetError() << std::endl;
+            // not fatal, continue without text
+        }
     }
     window = SDL_CreateWindow(title, 100, 100, width, height, SDL_WINDOW_SHOWN);
     if (!window) {
@@ -46,7 +55,32 @@ void Game::run() {
             if (e.type == SDL_QUIT) {
                 running = false;
             }
-            // forward event to current scene
+            // allow quick scene switching with B (battle) and E (main)
+            if (e.type == SDL_KEYDOWN) {
+                SDL_Keycode k = e.key.keysym.sym;
+                if (k == SDLK_b) {
+                    // switch to battle scene
+                    std::cout << "Game: B pressed, switching to BattleScene" << std::endl;
+                    // attempt to pass current MainScene's player to BattleScene
+                    Scene* cur = sceneManager.getCurrent();
+                    Player* p = nullptr;
+                    if (cur) {
+                        MainScene* ms = dynamic_cast<MainScene*>(cur);
+                        if (ms) p = ms->getPlayer();
+                    }
+                    sceneManager.setScene(new BattleScene(p));
+                    sceneManager.initCurrent();
+                    continue; // don't forward this key to scene
+                } else if (k == SDLK_e) {
+                    // switch back to main scene
+                    std::cout << "Game: E pressed, switching to MainScene" << std::endl;
+                    sceneManager.setScene(new MainScene());
+                    sceneManager.initCurrent();
+                    continue;
+                }
+            }
+
+            // forward other events to current scene
             sceneManager.handleEvent(e);
         }
 
@@ -74,5 +108,6 @@ void Game::clean() {
         SDL_DestroyWindow(window);
         window = nullptr;
     }
+    if (TTF_WasInit()) TTF_Quit();
     SDL_Quit();
 }

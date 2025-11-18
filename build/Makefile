@@ -142,6 +142,30 @@ copy_assets/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/build
 .PHONY : copy_assets/fast
 
+src/battle_scene.o: src/battle_scene.cpp.o
+.PHONY : src/battle_scene.o
+
+# target to build an object file
+src/battle_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/battle_scene.cpp.o
+.PHONY : src/battle_scene.cpp.o
+
+src/battle_scene.i: src/battle_scene.cpp.i
+.PHONY : src/battle_scene.i
+
+# target to preprocess a source file
+src/battle_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/battle_scene.cpp.i
+.PHONY : src/battle_scene.cpp.i
+
+src/battle_scene.s: src/battle_scene.cpp.s
+.PHONY : src/battle_scene.s
+
+# target to generate assembly for a file
+src/battle_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/src/battle_scene.cpp.s
+.PHONY : src/battle_scene.cpp.s
+
 src/enemy.o: src/enemy.cpp.o
 .PHONY : src/enemy.o
 
@@ -416,6 +440,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... copy_assets"
 	@echo "... spud"
+	@echo "... src/battle_scene.o"
+	@echo "... src/battle_scene.i"
+	@echo "... src/battle_scene.s"
 	@echo "... src/enemy.o"
 	@echo "... src/enemy.i"
 	@echo "... src/enemy.s"

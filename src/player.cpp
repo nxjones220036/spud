@@ -2,11 +2,12 @@
 #include <SDL2/SDL.h>
 
 Player::Player(float x, float y, int w, int h, int hp, int atk, int def)
-    : Entity(x, y, w, h), hp(hp), atk(atk), def(def), speed(200.0f) {}
+    : Entity(x, y, w, h), hp(hp), atk(atk), def(def), speed(200.0f), name("Player"), mp(50), level(1) {}
 
 void Player::update(float deltaTime) {
     const Uint8* state = SDL_GetKeyboardState(NULL);
     float dx = 0, dy = 0;
+    // Player movement
     if (state[SDL_SCANCODE_W] || state[SDL_SCANCODE_UP])    dy -= 1;
     if (state[SDL_SCANCODE_S] || state[SDL_SCANCODE_DOWN])  dy += 1;
     if (state[SDL_SCANCODE_A] || state[SDL_SCANCODE_LEFT])  dx -= 1;
@@ -32,3 +33,10 @@ int Player::getDEF() const { return def; }
 void Player::setHP(int h) { hp = h; }
 void Player::setATK(int a) { atk = a; }
 void Player::setDEF(int d) { def = d; }
+
+void Player::setName(const std::string& n) { name = n; }
+const std::string& Player::getName() const { return name; }
+void Player::setMP(int m) { mp = m; }
+int Player::getMP() const { return mp; }
+void Player::setLevel(int l) { level = l; }
+int Player::getLevel() const { return level; }

@@ -23,6 +23,9 @@ public:
     void render(SDL_Renderer* renderer) const;
     void handleEvent(const SDL_Event& e);
 
+    // Get pointer to current top scene (non-owning)
+    Scene* getCurrent();
+
     void clear();
 private:
     // We own the scenes

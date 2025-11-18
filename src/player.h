@@ -16,9 +16,20 @@ public:
     void setATK(int atk);
     void setDEF(int def);
 
+    // Additional fields for HUD
+    void setName(const std::string& n);
+    const std::string& getName() const;
+    void setMP(int m);
+    int getMP() const;
+    void setLevel(int l);
+    int getLevel() const;
+
 private:
     int hp;
     int atk;
     int def;
     float speed;
+    std::string name;
+    int mp;
+    int level;
 };

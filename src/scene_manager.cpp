@@ -11,6 +11,9 @@ void SceneManager::setScene(Scene* scene) {
     clear();
     if (scene) {
         scenes.emplace_back(scene);
+        // Debug log to confirm scene installation
+        // Note: we avoid RTTI/dynamic_cast to keep Scene base light; just print pointer
+        printf("SceneManager: setScene %p\n", static_cast<void*>(scene));
     }
 }
 
@@ -38,6 +41,11 @@ void SceneManager::render(SDL_Renderer* renderer) const {
 
 void SceneManager::handleEvent(const SDL_Event& e) {
     if (!scenes.empty()) scenes.back()->handleEvent(e);
+}
+
+Scene* SceneManager::getCurrent() {
+    if (scenes.empty()) return nullptr;
+    return scenes.back().get();
 }
 
 void SceneManager::clear() {

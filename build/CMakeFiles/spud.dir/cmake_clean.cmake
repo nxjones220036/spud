@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/spud.dir/src/battle_scene.cpp.o"
+  "CMakeFiles/spud.dir/src/battle_scene.cpp.o.d"
   "CMakeFiles/spud.dir/src/enemy.cpp.o"
   "CMakeFiles/spud.dir/src/enemy.cpp.o.d"
   "CMakeFiles/spud.dir/src/entity.cpp.o"

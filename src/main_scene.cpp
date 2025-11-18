@@ -47,6 +47,10 @@ void MainScene::init() {
     float px = (tilemap.getWidth() * 32) / 2.0f - 25;
     float py = (tilemap.getHeight() * 32) / 2.0f - 25;
     player = new Player(px, py, 50, 50, 100, 10, 5);
+    // set additional HUD values
+    player->setName("Hero");
+    player->setMP(50);
+    player->setLevel(1);
 }
 
 void MainScene::update(float deltaTime) {
@@ -67,4 +71,8 @@ void MainScene::destroy() {
         delete player;
         player = nullptr;
     }
+}
+
+Player* MainScene::getPlayer() const {
+    return player;
 }

@@ -14,6 +14,9 @@ public:
     void handleEvent(const SDL_Event& e) override;
     void destroy() override;
 
+    // expose player for other systems (non-owning)
+    Player* getPlayer() const;
+
 private:
     TileMap tilemap;
     Player* player;
