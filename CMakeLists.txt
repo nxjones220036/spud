@@ -20,3 +20,8 @@ add_custom_target(copy_assets ALL
 	COMMENT "Copying assets to build directory"
 )
 add_dependencies(spud copy_assets)
+
+# add menu.cpp to the spud target (use this if you don't want to edit the add_executable list)
+target_sources(spud PRIVATE
+    src/menu.cpp
+)

@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/spud.dir/src/main.cpp.o.d"
   "CMakeFiles/spud.dir/src/main_scene.cpp.o"
   "CMakeFiles/spud.dir/src/main_scene.cpp.o.d"
+  "CMakeFiles/spud.dir/src/menu.cpp.o"
+  "CMakeFiles/spud.dir/src/menu.cpp.o.d"
   "CMakeFiles/spud.dir/src/player.cpp.o"
   "CMakeFiles/spud.dir/src/player.cpp.o.d"
   "CMakeFiles/spud.dir/src/scene.cpp.o"

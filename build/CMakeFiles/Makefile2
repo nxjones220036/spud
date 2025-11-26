@@ -83,12 +83,12 @@ clean: CMakeFiles/copy_assets.dir/clean
 CMakeFiles/spud.dir/all: CMakeFiles/copy_assets.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spud.dir/build.make CMakeFiles/spud.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target spud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/drjones1020/sdl2-projects/spud/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target spud"
 .PHONY : CMakeFiles/spud.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spud.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/spud.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/drjones1020/sdl2-projects/spud/build/CMakeFiles 0
 .PHONY : CMakeFiles/spud.dir/rule

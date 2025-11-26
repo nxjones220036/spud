@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/drjones1020/sdl2-projects/spud/src/globals.cpp" "CMakeFiles/spud.dir/src/globals.cpp.o" "gcc" "CMakeFiles/spud.dir/src/globals.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/main.cpp" "CMakeFiles/spud.dir/src/main.cpp.o" "gcc" "CMakeFiles/spud.dir/src/main.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/main_scene.cpp" "CMakeFiles/spud.dir/src/main_scene.cpp.o" "gcc" "CMakeFiles/spud.dir/src/main_scene.cpp.o.d"
+  "/home/drjones1020/sdl2-projects/spud/src/menu.cpp" "CMakeFiles/spud.dir/src/menu.cpp.o" "gcc" "CMakeFiles/spud.dir/src/menu.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/player.cpp" "CMakeFiles/spud.dir/src/player.cpp.o" "gcc" "CMakeFiles/spud.dir/src/player.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/scene.cpp" "CMakeFiles/spud.dir/src/scene.cpp.o" "gcc" "CMakeFiles/spud.dir/src/scene.cpp.o.d"
   "/home/drjones1020/sdl2-projects/spud/src/scene_manager.cpp" "CMakeFiles/spud.dir/src/scene_manager.cpp.o" "gcc" "CMakeFiles/spud.dir/src/scene_manager.cpp.o.d"

@@ -299,6 +299,7 @@ CMakeFiles/spud.dir/src/game.cpp.o: \
  /home/drjones1020/sdl2-projects/spud/src/player.h \
  /home/drjones1020/sdl2-projects/spud/src/entity.h \
  /home/drjones1020/sdl2-projects/spud/src/battle_scene.h \
+ /home/drjones1020/sdl2-projects/spud/src/menu.h \
  /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
  /usr/include/c++/12/ios /usr/include/c++/12/bits/ios_base.h \
  /usr/include/c++/12/bits/locale_classes.h \
